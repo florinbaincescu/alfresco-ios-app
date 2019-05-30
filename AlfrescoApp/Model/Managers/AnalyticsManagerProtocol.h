@@ -18,6 +18,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AnalyticsConstants.h"
+#import "AlfrescoSession.h"
 
 typedef NS_ENUM(NSUInteger, AnalyticsType)
 {

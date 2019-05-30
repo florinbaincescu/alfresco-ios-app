@@ -372,7 +372,7 @@
 "about.title" = "Info";
 "about.content" = "Alfresco Content Services offre un sistema aperto, flessibile e altamente scalabile di gestione dei contenuti aziendali che semplifica l'accesso ai contenuti e la collaborazione da qualsiasi posizione. \n\nL'app mobile Alfresco Content Services permette di accedere rapidamente e in modo sicuro ai contenuti Alfresco e ai processi dei flussi di lavoro associati. È compatibile con Alfresco Content Services, Alfresco Community Edition (4.2 e versioni successive) e con Alfresco Content Services in the Cloud. \n\n L'applicazione per dispositivi mobili si collega tramite le credenziali di accesso di Alfresco Content Services (attraverso protocolli HTTP o HTTPS) e gestisce l'accesso in base alle autorizzazioni concesse all'utente.";
 "about.version.number" = "Versione: %@ (%@)";
-"about.build.date.time" = "Data build: %s %s";
+"about.build.date.time" = "Data build: %@ %@";
 
 /**
  * Activities View Controller

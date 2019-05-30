@@ -372,7 +372,7 @@
 "about.title" = "Acerca de";
 "about.content" = "Alfresco Content Services ofrece una gestión de contenido empresarial (ECM) abierta, flexible y altamente escalable que le facilita el acceso al contenido para que pueda colaborar con él desde cualquier lugar. \n\n La aplicación móvil Alfresco Content Services le ofrece un acceso rápido y seguro a su contenido de Alfresco y a los procesos de flujo de trabajo asociados. Funciona con Alfresco Content Services, Alfresco Community Edition (4.2 y posterior) y Alfresco Content Services in the Cloud. \n\n Esta aplicación móvil se conecta con las credenciales de inicio de sesión de Alfresco Content Services (a través de HTTP o HTTPS) y gestiona el acceso en función de sus permisos.";
 "about.version.number" = "Versión: %@ (%@)";
-"about.build.date.time" = "Fecha de creación: %s %s";
+"about.build.date.time" = "Fecha de creación: %@ %@";
 
 /**
  * Activities View Controller

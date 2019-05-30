@@ -21,7 +21,7 @@
 #import "SettingToggleCell.h"
 #import "SettingTextFieldCell.h"
 #import "SettingLabelCell.h"
-#import "AboutViewController.h"
+
 #import "AccountManager.h"
 #import "SettingButtonCell.h"
 #import <MessageUI/MessageUI.h>
@@ -31,6 +31,8 @@
 #import "SecurityManager.h"
 #import "TouchIDManager.h"
 #import "KeychainUtils.h"
+
+#import "AlfrescoApp-Swift.h"
 
 @interface SettingsViewController () <SettingsCellProtocol, MFMailComposeViewControllerDelegate>
 @end
@@ -611,7 +613,8 @@
     SettingCell *cell = (SettingCell *)[tableView cellForRowAtIndexPath:indexPath];
     if ([cell.preferenceIdentifier isEqualToString:kSettingsAboutIdentifier])
     {
-        AboutViewController *aboutViewController = [[AboutViewController alloc] init];
+        UIStoryboard *other = [UIStoryboard storyboardWithName:@"Others" bundle:nil];
+        AboutViewController *aboutViewController = [other instantiateViewControllerWithIdentifier:@"aboutVC"];
         [self.navigationController pushViewController:aboutViewController animated:YES];
     }
     else if ([cell.preferenceIdentifier isEqualToString:kSettingsPasscodeLockIdentifier])
